@@ -58,7 +58,7 @@ Aqui está o método exibirStats sendo sobrescrito, adicionando para imprimir os
     public void exibirStats() {
         super.exibirStats();
         System.out.println("Força: " + forca);
-        System.out.println("Resistencia: " + resistencia);
+        System.out.println("Resistência: " + resistencia);
         System.out.println("Energia: " + energia);
         System.out.println("Pontos de Combate: " + calcularPontosCombate());
     }
@@ -83,7 +83,7 @@ Aqui está o método exibirStats sendo sobrescrito, adicionando para imprimir os
         forca += aumentoAtributo;
         energia += aumentoAtributo;
         System.out.println("Força: " + forca);
-        System.out.println("Resistencia: " + resistencia);
+        System.out.println("Resistência: " + resistencia);
         System.out.println("Energia: " + energia);
     }
     /*

@@ -6,7 +6,7 @@ public abstract class   Heroi {
    Esses atributos são definidos dentro da superclasse, pois a ideia que tive foi deles já serem pré-determinados, assim como em jogos de RPG (Black Desert, Neverwinter).
    A classe é abstract, pois não faz sentido existir um herói sem classe, todo herói criado tem que ser um Guerreiro, um Mago ou um Arqueiro.
    Todos os atributos têm getters, e alguns atributos como (Nível, Vida, Mana) possuem setters com requisitos a serem cumpridos, exemplos: não poder ser negativo, entre outros.
-   Os setters que possuem essas validações são private, para que somente a própria classe Heroi consiga alterar esses valores, e ninguém de fora
+   Os setters que possuem essas validações são private, para que somente a própria classe Herói consiga alterar esses valores, e ninguém de fora
    consiga mudar o nível ou a vida de um herói sem ser pelas missões. O atributo classe não possui setter, pois ele é definido uma única vez pela subclasse no construtor.
     */
    private String nome;
@@ -98,9 +98,9 @@ public abstract class   Heroi {
     Essa é apenas a base universal do exibirStats.
       */
     public void exibirStats(){
-        System.out.println("\n===Status Heroi===\n");
+        System.out.println("\n===Status Herói===\n");
         System.out.println("Nome: " + nome);
-        System.out.println("Nivel: " + nivel);
+        System.out.println("Nível: " + nivel);
         System.out.println("Classe: " + classe);
         System.out.println("Vida: " + vida);
         System.out.println("Mana: " + mana);
@@ -122,7 +122,7 @@ public abstract class   Heroi {
         System.out.println("\n===Evoluiu===\n");
         System.out.println("Vida: " + vida);
         System.out.println("Mana: " + mana);
-        System.out.println("Nivel: " + nivel);
+        System.out.println("Nível: " + nivel);
 
     }
 

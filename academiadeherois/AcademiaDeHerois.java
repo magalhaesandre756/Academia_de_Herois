@@ -33,7 +33,7 @@ e para que no método relatorio seja possível mostrar a quantidade de heróis e
          */
     public void cadastrarHerois(Heroi heroi) {
         if (totalHerois == herois.length) {
-            System.out.println("Foi atingido o limite de 20 herois");
+            System.out.println("Foi atingido o limite de 20 heróis");
         } else {
             herois[totalHerois] = heroi;
             totalHerois++;
@@ -47,9 +47,9 @@ e para que no método relatorio seja possível mostrar a quantidade de heróis e
        */
     public void listarHerois() {
         if (totalHerois == 0) {
-            System.out.println("Não há nenhum heroi cadastrado");
+            System.out.println("Não há nenhum herói cadastrado");
         } else {
-            System.out.println("Os herois cadastardos sao: " );
+            System.out.println("Os heróis cadastrados sao: " );
             for (int i = 0; i < totalHerois; i++) {
                 herois[i].exibirStats();
             }
@@ -63,12 +63,12 @@ e para que no método relatorio seja possível mostrar a quantidade de heróis e
     public Heroi buscarHeroiPeloNome(String nome){
         for (int i = 0 ; i < totalHerois; i++){
             if (herois[i].getNome().equalsIgnoreCase(nome)){
-                System.out.println("\n Heroi encontrado: \n" );
+                System.out.println("\n Herói encontrado: \n" );
                 herois[i].exibirStats();
                 return herois[i];
             }
         }
-        System.out.println("Heroi não encontrado.");
+        System.out.println("Herói não encontrado.");
         return null;
     }
     /*

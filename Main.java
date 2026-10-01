@@ -93,7 +93,7 @@ public class Main {
                 */
                case 4:
                    if (academia.getTotalHerois() == 0){
-                       System.out.println("Não há herói antes cadastrado para gerar o relatorio.");
+                       System.out.println("Não há herói antes cadastrado para gerar o relatório.");
                    } else {
                        academia.relatorio();
                    }
@@ -106,7 +106,7 @@ public class Main {
                 */
                case 5:
                    if (academia.getTotalHerois() == 0){
-                       System.out.println("Cadastre um heroi antes de iniciar uma missão.");
+                       System.out.println("Cadastre um herói antes de iniciar uma missão.");
                        break;
                    }
                    System.out.println("Digite o nome do herói que fará a missão: ");
@@ -149,7 +149,7 @@ public class Main {
                    break;
                // O default é chamado quando o usuário digita um número que não existe no menu.
                default:
-                   System.out.println("Opção invélida.");
+                   System.out.println("Opção invalida.");
 
 
            }
@@ -158,7 +158,7 @@ public class Main {
         Quando o usuário sai do menu, é exibido o relatório final, como pede o enunciado. Também é verificado se existe herói cadastrado antes.
          */
         if (academia.getTotalHerois() == 0){
-            System.out.println("Não há herói antes cadastrado para gerar o relatorio.");
+            System.out.println("Não há herói antes cadastrado para gerar o relatório.");
         } else {
             academia.relatorio();
         }

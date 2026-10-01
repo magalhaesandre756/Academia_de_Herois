@@ -63,7 +63,7 @@ Primeiro ele chama o evoluir da SuperClasse com o super, que aumenta nível, vid
         inteligencia += aumentoAtributo;
         fe += aumentoAtributo;
         System.out.println("Poder Magico: " + poderMagico);
-        System.out.println("Inteligencia: " + inteligencia);
+        System.out.println("Inteligência: " + inteligencia);
         System.out.println("Fé: " + fe);
     }
     /*
