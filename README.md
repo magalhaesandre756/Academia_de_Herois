@@ -1,6 +1,6 @@
 # 🏰 Academia de Heróis do Reino de Arcádia
 
-Sistema em Java, executado no console, para gerenciar os heróis de uma academia fictícia. Projeto desenvolvido na Atividade 1 de Orientação a Objetos do curso de Engenharia de Software (CEUB).
+Sistema em Java, executado no console, para gerenciar os heróis de uma academia fictícia.
 
 O Reino de Arcádia está enfrentando diversas ameaças mágicas, e a Academia de Heróis é responsável por treinar guerreiros, magos e arqueiros. Pelo menu é possível cadastrar heróis, consultar os seus status, enviá-los em missões para evoluírem e, ao final, ver o Relatório do Reino.
 
