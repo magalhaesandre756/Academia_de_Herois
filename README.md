@@ -107,4 +107,4 @@ Montar o relatório exigiu fazer várias coisas em um único laço: contar os he
 
 ---
 
-Desenvolvido por **André Magalhães**, Engenharia de Software, CEUB.
+Desenvolvido por **André Magalhães**, Engenharia de Software.
